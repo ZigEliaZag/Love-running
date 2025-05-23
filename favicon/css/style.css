@@ -33,6 +33,7 @@ header a {
     color: inherit;
 }
 
+/* page name on top*/
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -40,7 +41,25 @@ h1 {
     color: #252525;
 }
 
-/* main */
+/* navigation bar ul*/
+.menu {
+    font-size: 110%;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+/* navigation bar list*/
+.menu>li {
+    margin-bottom: 1em;
+}
+
+/* navigation bar list*/
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* main content */
 main {
     background-color: aquamarine;
     /* make main element take any surplus space to push the footer down */
