@@ -17,18 +17,23 @@ body {
 
 }
 
-
-
+/* header */
 header {
     background-color: burlywood;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* main */
 main {
     background-color: aquamarine;
     /* make main element take any surplus space to push the footer down */
     flex: 1 0 auto;
 }
 
+/* footer */
 footer {
     background-color: coral;
 }
