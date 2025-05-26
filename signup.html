@@ -15,6 +15,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-zip/favicon-16x16.png">
     <!-- stylesheet -->
     <link rel="stylesheet" href="favicon/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -36,9 +40,34 @@
         </nav>
     </header>
     <main>
+        <!-- sign up set-->
         <form action="" method="post">
-            <fieldset>
-                <legend>Sign Up</legend>
+            <fieldset class="signup">
+                <legend id="signup">your details</legend>
+                <div>
+                    <label for="fname">name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter first name"
+                        aria-label="Enter your first name" required>
+                </div>
+                <div>
+                    <label for="lnamne">last name</label>
+                    <input type="text" name="lnamne" id="lnamne" placeholder="Enter last name"
+                        aria-label="Enter your last name" required>
+                </div>
+
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"
+                        aria-label="Type your email" required>
+                </div>
+                <div class="password">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password"
+                        aria-label="Type in password" required>
+                    <input type="password" name="password" placeholder="Confirm password" aria-label="Confirm password"
+                        required>
+                </div>
+                <button>Sign Up</button>
 
             </fieldset>
         </form>
