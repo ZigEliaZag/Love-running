@@ -157,3 +157,53 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/* sign up form style*/
+form {
+    background-color: #ffffff;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+legend {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+fieldset {
+    background-color: whitesmoke;
+    width: 50%;
+    border: none;
+}
+
+fieldset>div {
+    padding: 5px;
+}
+
+.password>input {
+    margin-top: 5px;
+}
+
+label {
+    font-family: italic, sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+input {
+    width: 170px;
+    height: 30px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    font-family: italic, sans-serif;
+    font-size: medium;
+    margin-left: 28%;
+    margin-top: 6px;
+}
