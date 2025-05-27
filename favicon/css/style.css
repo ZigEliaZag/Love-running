@@ -201,9 +201,13 @@ label {
     letter-spacing: 2px;
     text-transform: capitalize;
     /* display no label text on the page*/
-    display: none;
+
 }
 
+.sign-up-label {
+    /* remove label text for inputs on page */
+    display: none;
+}
 
 input[type=text],
 input[type=email],
