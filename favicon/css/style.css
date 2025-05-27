@@ -149,6 +149,8 @@ main {
         /* push main content down under larger header */
         margin-top: 79px;
     }
+
+
 }
 
 /* larger divices ( laptops and desptops 992px up)*/
@@ -156,12 +158,16 @@ main {
     .menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* sign up form*/
 }
 
 /* sign up form style*/
+
+/* form*/
 form {
     background-color: #ffffff;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,38 +178,46 @@ legend {
     text-align: center;
     text-transform: capitalize;
     font-family: sans-serif;
+
 }
 
+/* fieldset */
 fieldset {
     background-color: whitesmoke;
     width: 50%;
     border: none;
+    text-align: center;
+
 }
 
 fieldset>div {
-    padding: 5px;
-}
-
-.password>input {
-    margin-top: 5px;
+    padding: 0.313rem;
+    /* space between each text aria */
+    margin-top: 0.625rem;
 }
 
 label {
     font-family: italic, sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
+    /* display no label text on the page*/
+    display: none;
 }
 
-input {
+
+input[type=text],
+input[type=email],
+input[type=password] {
     width: 170px;
     height: 30px;
 }
 
+/* sign up button*/
 button {
     width: 80px;
     height: 30px;
     font-family: italic, sans-serif;
+    color: #000000;
     font-size: medium;
-    margin-left: 28%;
-    margin-top: 6px;
+    margin-top: 30px;
 }
