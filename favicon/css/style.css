@@ -224,3 +224,32 @@ button {
     font-size: medium;
     margin-top: 30px;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    margin-left: 1.0rem;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
+    width: 25rem;
+    height: 20rem;
+    object-fit: cover;
+}
