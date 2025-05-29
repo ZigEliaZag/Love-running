@@ -150,6 +150,7 @@ main {
         margin-top: 79px;
     }
 
+    /* gallery form */
 
 }
 
@@ -239,7 +240,7 @@ h2 {
 }
 
 .gallery {
-    margin-left: 1.0rem;
+    margin-left: 0.6rem;
 }
 
 .container {
@@ -251,7 +252,39 @@ h2 {
 }
 
 img {
-    width: 25rem;
+    width: 370px;
     height: 20rem;
+    /* to make the images not stretchy */
     object-fit: cover;
+}
+
+/* gallery form */
+/* width for smaller screen with 390px*/
+@media screen and (min-width: 390px) {
+
+    img {
+        width: 370px;
+    }
+}
+
+/* gallery form*/
+/* margin left for small screen with 375px */
+@media screen and (min-width: 375px) {
+    .gallery {
+        margin-left: 1.3rem;
+    }
+
+    img {
+        width: 350px;
+    }
+
+}
+
+/* gallery form*/
+/* margin left for small screen with 414px */
+@media screen and (min-width: 414px) {
+
+    .gallery {
+        margin-left: 1.7rem;
+    }
 }
