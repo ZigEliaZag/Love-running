@@ -18,6 +18,17 @@ body {
 
 }
 
+/* page name on top*/
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+
 /* header */
 header {
     background-color: #ffffff;
@@ -37,13 +48,6 @@ header a {
     color: inherit;
 }
 
-/* page name on top*/
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
 
 /* navigation bar ul*/
 .menu {
@@ -103,6 +107,23 @@ main {
     height: 600px;
     width: 100%;
     background: url("../image/hero-image.webp") no-repeat center center/cover;
+}
+
+/* rbga to set the opacity so it is semi-transparent */
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 65px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 /* footer */
