@@ -184,6 +184,12 @@ main {
         justify-content: center;
     }
 
+    /* hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
 }
 
 /* larger divices ( laptops and desptops 992px up)*/
