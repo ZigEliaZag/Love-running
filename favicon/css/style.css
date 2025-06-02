@@ -114,7 +114,8 @@ main {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
-    bottom: 65px;
+    /*bottom: 65px;*/
+    top: 450px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -124,6 +125,30 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
+}
+
+/* reasons section */
+/* text on section*/
+#reasons {
+    height: 90%;
+    margin: 20px 20px auto;
+}
+
+/* heading on section */
+#reasons>h2 {
+    margin-bottom: 20px;
+
+}
+
+/* lines under texts*/
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/* spaces under text*/
+.healthy {
+    margin-bottom: 20px;
 }
 
 /* footer */
@@ -186,8 +211,11 @@ main {
 
     /* hero */
     #cover-text {
-        width: 300px;
+        width: 500px;
         right: 50px;
+        bottom: 700px;
+        left: 40%;
+
     }
 
 }
