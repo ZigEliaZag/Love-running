@@ -151,6 +151,14 @@ hr {
     margin-bottom: 20px;
 }
 
+/* reasons image*/
+#circle-cover-bg {
+    background: url("../image/reasons-image.webp") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
