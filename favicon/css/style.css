@@ -237,6 +237,24 @@ hr {
 
     }
 
+    /* reasons scetion */
+    #benefit-physical,
+    #benefit-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefit-physical>div,
+    #benefit-mental>div {
+        width: 75%;
+    }
+
+    #benefit-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
 /* larger divices ( laptops and desptops 992px up)*/
@@ -244,8 +262,40 @@ hr {
     .menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
 
-    /* sign up form*/
+/* larger divices, 1200px */
+@media screen and (min-width: 1200px) {
+
+    /* reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefit-image {
+        order: 0;
+    }
+
+    #benefit-mental {
+        order: 1;
+    }
+
+    #benefit-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefit-physical>div {
+        align-self: flex-end;
+    }
+
+    #reasons>h2 {
+        text-align: center;
+    }
 }
 
 /* sign up form style*/
