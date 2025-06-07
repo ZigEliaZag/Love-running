@@ -169,6 +169,22 @@ hr {
     justify-content: center;
 }
 
+/* meet-ups times section */
+#meet-ups>h2 {
+    text-align: center;
+}
+
+#times {
+    background: url("../image/pexels-janzidlicky-3030468.jpg") no-repeat top center / cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+#times>div p {
+    text-transform: capitalize;
+}
 
 /* footer */
 #social-networks {
