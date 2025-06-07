@@ -28,6 +28,9 @@ h3 {
     color: #252525;
 }
 
+.hidden-headings {
+    display: none;
+}
 
 /* header */
 header {
@@ -180,6 +183,7 @@ hr {
     background: url("../image/pexels-janzidlicky-3030468\ \(1\).jpg") no-repeat top center / cover;
     display: flex;
     flex-wrap: wrap;
+    /* add a gap between the time bord*/
     gap: 8px;
 
 
