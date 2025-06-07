@@ -170,20 +170,33 @@ hr {
 }
 
 /* meet-ups times section */
-#meet-ups>h2 {
+#meet-ups h3 {
     text-align: center;
+    /* override the heading color set in general styles*/
+    color: #fafafa;
 }
 
 #times {
-    background: url("../image/pexels-janzidlicky-3030468.jpg") no-repeat top center / cover;
+    background: url("../image/pexels-janzidlicky-3030468\ \(1\).jpg") no-repeat top center / cover;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
+
 
 }
 
 #times>div p {
     text-transform: capitalize;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+
 }
 
 /* footer */
