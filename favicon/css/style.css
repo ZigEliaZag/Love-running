@@ -385,13 +385,13 @@ input[type=password] {
 }
 
 /* sign up button*/
-button {
-    width: 80px;
+.join-button {
+    /*width: 80px;
     height: 30px;
     font-family: italic, sans-serif;
     color: #000000;
     font-size: medium;
-    margin-top: 30px;
+    margin-top: 30px;*/
 }
 
 /* gallery form */

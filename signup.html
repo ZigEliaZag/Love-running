@@ -42,6 +42,7 @@
     <main>
         <!-- sign up set-->
         <form action="" method="post">
+            <h2><i class="fa-solid fa-heart-pulse"></i> Let's us get you signed up!</h2>
             <fieldset class="signup">
                 <legend id="signup">your details</legend>
                 <!-- first name input -->
@@ -62,7 +63,7 @@
                     <input type="email" name="email" id="email" placeholder="Enter your email"
                         aria-label="Type your email" required>
                 </div>
-                <!-- password input -->
+                <!-- password input 
                 <div class="password">
                     <label class="sign-up-label" for="password">password</label>
                     <input type="password" name="password" id="password" placeholder="Enter password"
@@ -72,10 +73,17 @@
                     <label class="sign-up-label" for="password">confirm password</label>
                     <input type="password" name="password" id="confirm-password" placeholder="Confirm password"
                         aria-label="Confirm password" required>
-                </div>
-                <!-- sign up button -->
+                </div> -->
+                <!-- sign up button 
 
-                <button>Sign Up</button>
+                <button>Sign Up</button> -->
+                <label for="road">Road</label>
+                <input type="radio" id="road" name="running-preference" aria-label="Road" required><br>
+                <label for="trail">Trail</label>
+                <input type="radio" id="trail" name="running-preference" aria-label="Trail" required><br>
+                <label for="both">both</label>
+                <input type="radio" id="both" name="running-preference" aria-label="both" required><br>
+                <input class="join-buttton" type="submit" value="Let's run" aria-label="Submit your details">
             </fieldset>
         </form>
     </main>
