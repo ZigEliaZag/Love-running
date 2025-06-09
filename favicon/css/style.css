@@ -384,14 +384,19 @@ input[type=password] {
     height: 30px;
 }
 
+
 /* sign up button*/
-.join-button {
-    /*width: 80px;
+button {
+    width: 80px;
     height: 30px;
     font-family: italic, sans-serif;
     color: #000000;
     font-size: medium;
-    margin-top: 30px;*/
+    margin-top: 30px;
+}
+
+input[type=submit] {
+    width: 70px;
 }
 
 /* gallery form */
