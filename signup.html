@@ -39,51 +39,33 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <!-- sign up set-->
-        <form action="" method="post">
-            <h2><i class="fa-solid fa-heart-pulse"></i> Let's us get you signed up!</h2>
-            <fieldset class="signup">
-                <legend id="signup">your details</legend>
-                <!-- first name input -->
-                <div class="fname">
-                    <label class="sign-up-label" for="fname">name</label>
-                    <input type="text" name="fname" id="fname" placeholder="Enter first name"
-                        aria-label="Enter your first name" required>
-                </div>
-                <!-- last name input -->
-                <div class="lname">
-                    <label class="sign-up-label" for="lname">last name</label>
-                    <input type="text" name="lname" id="lname" placeholder="Enter last name"
-                        aria-label="Enter your last name" required>
-                </div>
-                <!-- email input -->
-                <div class="email">
-                    <label class="sign-up-label" for="email">email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email"
-                        aria-label="Type your email" required>
-                </div>
-                <!-- password input 
-                <div class="password">
-                    <label class="sign-up-label" for="password">password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter password"
-                        aria-label="Type in password" required>
+    <main id="main">
+
+        <form action="" id="signup">
+            <fieldset id="signup-form">
+                <div>
+                    <h2><i class="fa-solid fa-heart-pulse"></i> Let's us get you signed up!</h2>
                 </div>
                 <div>
-                    <label class="sign-up-label" for="password">confirm password</label>
-                    <input type="password" name="password" id="confirm-password" placeholder="Confirm password"
-                        aria-label="Confirm password" required>
-                </div> -->
-                <!-- sign up button 
+                    <div>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname-field" aria-label="Enter your first name"
+                            required><br>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname-field" aria-label="Enter your last name" required><br>
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email" required>
 
-                <button>Sign Up</button> -->
-                <label for="road">Road</label>
-                <input type="radio" id="road" name="running-preference" aria-label="Road" required><br>
-                <label for="trail">Trail</label>
-                <input type="radio" id="trail" name="running-preference" aria-label="Trail" required><br>
-                <label for="both">both</label>
-                <input type="radio" id="both" name="running-preference" aria-label="both" required><br>
-                <input class="join-buttton" type="submit" value="Let's run" aria-label="Submit your details">
+                    </div>
+                    <div>
+                        <label for="first-radio">Road</label>
+                        <input type="radio" name="first-radio" id="first-radio">
+                        <label for="second-radio">Trail</label>
+                        <input type="radio" name="second-radio" id="second-radio">
+                        <label for="third-radio">Both</label>
+                        <input type="radio" name="third-radio" id="third-radio">
+                    </div>
+                </div>
             </fieldset>
         </form>
     </main>
