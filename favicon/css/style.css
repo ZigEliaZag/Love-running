@@ -397,6 +397,23 @@ input[type=email] {
     width: 100%;
 }
 
+/* submit button */
+.join-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=submit] {
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 5px;
+}
+
 /* gallery form */
 
 #gallery {
