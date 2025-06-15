@@ -288,6 +288,23 @@ hr {
         align-self: flex-end;
     }
 
+    /* sign up form */
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        margin-bottom: 150px;
+
+    }
+
+    #text-inpu:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button>input:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
 
 /* larger divices ( laptops and desptops 992px up)*/
@@ -375,6 +392,7 @@ fieldset>h2 {
     margin-right: 30px;
 }
 
+/* text and email insets */
 input[type=text],
 input[type=email] {
     background-color: rgba(60, 60, 60, 0.6);
